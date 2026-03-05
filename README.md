@@ -23,27 +23,28 @@
 	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/preview.png" alt="Dark Modern Neue Theme Preview"/>
 </p>
 
-### More details
 <details>
-<summary>Dark Modern Neue</summary>
-	<p align=center>
-		<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/default.png" width="800" alt="Dark Modern Neue Default Variant Showcase"/>
-	</p>
-</details>
+<summary><strong>See more details</strong></summary>
 
-<details>
-<summary>Dark Modern Neue — High Contrast</summary>
-	<p align=center>
-		<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/high-contrast.png" width="800" alt="Dark Modern Neue High Contrast Variant Showcase"/>
-	</p>
-</details>
+<p align=center>
+	<p>Default Dark Modern Neue</p>
+	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/default.png" width="800" alt="Dark Modern Neue Default Variant Showcase"/>
+</p>
 
-<details>
-<summary>Dark Modern Neue — Minimal</summary>
-	<p align=center> 
-		<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/minimal.png" width="800" alt="Dark Modern Neue Minimal Variant Showcase"/>
-	</p>
-	
+<br />
+
+<p align=center>
+	<p>Dark Modern Neue — High Contrast</p>
+	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/high-contrast.png" width="800" alt="Dark Modern Neue High Contrast Variant Showcase"/>
+</p>
+
+<br />
+
+<p align=center> 
+	<p>Dark Modern Neue — Minimal</p>
+	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/minimal.png" width="800" alt="Dark Modern Neue Minimal Variant Showcase"/>
+</p>
+
 </details>
 
 ## How I made it
@@ -62,6 +63,9 @@ So the first thing I did was replace it with a soft italic gray — comments sho
 
 From there I updated the base colors with warmer, desaturated tones for a more modern feel, drawing inspiration from the Dark 2026 palette released in February. I also looked closely at how Cursor styles its Anywhere theme — which I've also ported to VS Code ([check it out here](LINK)).
 
+<details>
+<summary><b>See Dark Modern and Dark Modern Neue comparison table</b></summary>
+
 | Token | Dark Modern | `NEW!` Dark Modern Neue |
 |---|---|---|
 | Comments | ![#6A9955](https://img.shields.io/badge/-%236A9955-6A9955) | ![#494949](https://img.shields.io/badge/-%23494949-494949) ![italic](https://img.shields.io/badge/-italic-262626) |
@@ -76,7 +80,12 @@ From there I updated the base colors with warmer, desaturated tones for a more m
 | Properties | ![#9CDCFE](https://img.shields.io/badge/-%239CDCFE-9CDCFE) | ![#646695](https://img.shields.io/badge/-%23646695-646695) ![italic](https://img.shields.io/badge/-italic-262626) |
 | Regex | ![#D16969](https://img.shields.io/badge/-%23D16969-D16969) | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) |
 
+</details>
+
 Then came a High Contrast variant built entirely on [Tailwind colors used by shadcn-ui](https://ui.shadcn.com/colors), with strong chromatic separation for maximum token differentiation.
+
+<details>
+<summary><b>See Dark Modern Neue and the High Contrast alt comparison table</b></summary>
 
 | Token | Default | ![shadcn-ui](https://img.shields.io/badge/-shadcn--ui-000000?logo=shadcnui) High Contrast |
 |---|---|---|
@@ -92,7 +101,13 @@ Then came a High Contrast variant built entirely on [Tailwind colors used by sha
 | Properties | ![#646695](https://img.shields.io/badge/-%23646695-646695) | ![slate-450](https://img.shields.io/badge/-slate--450-7274b5) |
 | Regex | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) | ![rose-450](https://img.shields.io/badge/-rose--450-FF6B72) |
 
+</details>
+
 And finally, my personal favorite: a monochrome and super minimalistic variant in the spirit of [Vercel's aesthetic](https://vercel.com/) — near-zero color, inverted hierarchy, with a single elegant teal accent reserved for strings.
+
+
+<details>
+<summary><b>See Dark Modern Neue Minimal table</b></summary>
 
 | Token | ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel) Minimal |
 |---|---|
@@ -107,6 +122,8 @@ And finally, my personal favorite: a monochrome and super minimalistic variant i
 | Control flow | ![#525252](https://img.shields.io/badge/-%23525252-525252) |
 | Properties | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) ![italic](https://img.shields.io/badge/-italic-262626) |
 | Regex | ![#737373](https://img.shields.io/badge/-%23737373-737373) |
+
+</details>
 
 ## Installation
 
