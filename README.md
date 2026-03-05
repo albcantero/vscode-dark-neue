@@ -79,9 +79,9 @@ So the first thing I did was replace it with a soft italic gray — comments sho
 
 From there I updated the base colors with warmer, desaturated tones for a more modern feel, drawing inspiration from the Dark 2026 palette released in February. I also looked closely at how Cursor styles its Anywhere theme — which I've also ported to VS Code ([check it out here](LINK)).
 
-Then came a High Contrast variant built entirely on shadcn/Tailwind colors, with strong chromatic separation for maximum token differentiation.
+Then came a High Contrast variant built entirely on [shadcn/Tailwind colors](https://ui.shadcn.com/colors), with strong chromatic separation for maximum token differentiation.
 
-And finally, my personal favorite: a monochrome minimal variant in the spirit of Vercel's aesthetic — near-zero color, inverted hierarchy, with a single elegant teal accent reserved for strings.
+And finally, my personal favorite: a monochrome and super minimalistic variant in the spirit of [Vercel's aesthetic](https://vercel.com/) — near-zero color, inverted hierarchy, with a single elegant teal accent reserved for strings.
 
 ## Feedback
 
