@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/albcantero/vscode-dark-neue/stargazers"><img src="https://img.shields.io/github/stars/albcantero/vscode-dark-neue?colorA=0a0a0a&colorB=7DCFCA&style=for-the-badge"></a>
-	<a href="https://github.com/albcantero/vscode-dark-neue/issues"><img src="https://img.shields.io/github/issues/albcantero/vscode-dark-neue?colorA=0a0a0a&colorB=7DCFCA&style=for-the-badge"></a>
-	<a href="https://marketplace.visualstudio.com/items?itemName=albcantero.vscode-dark-neue"><img src="https://img.shields.io/visual-studio-marketplace/i/albcantero.vscode-dark-neue?colorA=0a0a0a&colorB=7DCFCA&style=for-the-badge&label=installs"></a>
+	<a href="https://github.com/albcantero/vscode-dark-neue/stargazers"><img src="https://img.shields.io/github/stars/albcantero/vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&logo=github&logoColor=white"></a>
+	<a href="https://github.com/albcantero/vscode-dark-neue/issues"><img src="https://img.shields.io/github/issues/albcantero/vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&logo=gitbook&logoColor=white"></a>
+	<a href="https://marketplace.visualstudio.com/items?itemName=albcantero.vscode-dark-neue"><img src="https://img.shields.io/visual-studio-marketplace/i/albcantero.vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&label=installs&logo=docsdotrs&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -69,6 +69,9 @@ Found a bug or have a suggestion? [Open an issue](https://github.com/albcantero/
 
 <p align="center">
 	<a href="https://github.com/albcantero/vscode-dark-neue/blob/main/LICENSE">
-		<img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&colorA=0a0a0a&colorB=7DCFCA"/>
+		<img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&colorA=0a0a0a&colorB=4F8FDD"/>
+	</a>
+	<a href="https://github.com/albcantero">
+	  <img src="https://img.shields.io/static/v1.svg?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABMklEQVQ4jcWQvUoDQRRGz52s5IfVIiDWPkGKFFaCIVaGdIagjcFAwICFb7DvIK6QQlNpY2UQLMQVBbEQ0SewFkGbKCQmOzaTJay7/lR+zTAf9xwuF/47Mv45rdezqWEq72v/RWZnHgqOMwDwHMfSj085JSqb6Pu38we7r18E3nqzhmYbsE11rxKsAvhDfQiSM30XYbOw57YDwfnaRl6U3ABWaMNn806H+oGPzBX3d+4UgChZiYBHYBgGsBLoKoAyhR0x9G20Zmpc4P1ZoMQDcwMNclFrdhBKv6M5WWi7ZQGtjEUn35IV4OwnVjSX/WGmKqCDDUa5rmyle3bvGFiMg3WGUsF1u0EXHoqTRMGRgkAy2eugKZrqijRLYThWANBpNDL2h3UE0J0YLJdbrfe42f/NJ0wqY7/KcXKPAAAAAElFTkSuQmCC&label=lovely%20crafted%20in&message=Spain&colorA=0a0a0a&colorB=4F8FDD"/>
 	</a>
 </p>
