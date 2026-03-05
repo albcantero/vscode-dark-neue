@@ -130,7 +130,11 @@ Paste all of this and you will get the cleanest and minimalistic VS Code ever.
 
 | CommitMono (I use this one😎) | Jetbrains Mono | Cascadia Code `updated!` |
 |---|---|---|
-| [Click here](https://commitmono.com/) | [Click here](https://jetbrains.com/lp/mono/) | [Click here](https://github.com/microsoft/cascadia-code) |
+| <a href="https://commitmono.com/" target="_blank" rel="noopener noreferrer">Click here</a> | <a href="https://jetbrains.com/lp/mono/" target="_blank" rel="noopener noreferrer">Click here</a> | <a href="https://github.com/microsoft/cascadia-code" target="_blank" rel="noopener noreferrer">Click here</a> |
+
+
+
+
 
 ## How I made it
 
