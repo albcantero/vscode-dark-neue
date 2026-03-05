@@ -11,8 +11,8 @@
 
 <p align="center">
 	<a href="https://github.com/albcantero/vscode-dark-neue/stargazers"><img src="https://img.shields.io/github/stars/albcantero/vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&logo=github&logoColor=white"></a>
-	<a href="https://github.com/albcantero/vscode-dark-neue/issues"><img src="https://img.shields.io/github/issues/albcantero/vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&logo=refinedgithub&logoColor=white"></a>
-	<a href="https://marketplace.visualstudio.com/items?itemName=albcantero.vscode-dark-neue"><img src="https://img.shields.io/visual-studio-marketplace/i/albcantero.vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&label=installs&logo=githubsponsors&logoColor=white"></a>
+	<a href="https://github.com/albcantero/vscode-dark-neue/issues"><img src="https://img.shields.io/github/issues/albcantero/vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&logo=downdetector&logoColor=white"></a>
+	<a href="https://marketplace.visualstudio.com/items?itemName=albcantero.vscode-dark-neue"><img src="https://img.shields.io/visual-studio-marketplace/i/albcantero.vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&label=installs&logo=docsdotrs&logoColor=white"></a>
 </p>
 
 <p align="center">
