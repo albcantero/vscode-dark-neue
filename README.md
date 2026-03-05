@@ -77,6 +77,8 @@ I couldn't stand the bright, saturated green that Dark, Dark+, and Dark Modern u
 
 So the first thing I did was replace it with a soft italic gray — comments should whisper, not shout.
 
+From there I updated the base colors with warmer, desaturated tones for a more modern feel, drawing inspiration from the Dark 2026 palette released in February. I also looked closely at how Cursor styles its Anywhere theme — which I've also ported to VS Code ([check it out here](LINK)).
+
 | Token | Dark Modern | `NEW!` Dark Modern Neue |
 |---|---|---|
 | Comments | ![#6A9955](https://img.shields.io/badge/-%236A9955-6A9955) | ![#494949](https://img.shields.io/badge/-%23494949-494949) ![italic](https://img.shields.io/badge/-italic-262626) |
@@ -90,8 +92,6 @@ So the first thing I did was replace it with a soft italic gray — comments sho
 | Control flow | ![#C586C0](https://img.shields.io/badge/-%23C586C0-C586C0) | ![#C184C6](https://img.shields.io/badge/-%23C184C6-C184C6) |
 | Properties | ![#9CDCFE](https://img.shields.io/badge/-%239CDCFE-9CDCFE) | ![#646695](https://img.shields.io/badge/-%23646695-646695) ![italic](https://img.shields.io/badge/-italic-262626) |
 | Regex | ![#D16969](https://img.shields.io/badge/-%23D16969-D16969) | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) |
-
-From there I updated the base colors with warmer, desaturated tones for a more modern feel, drawing inspiration from the Dark 2026 palette released in February. I also looked closely at how Cursor styles its Anywhere theme — which I've also ported to VS Code ([check it out here](LINK)).
 
 Then came a High Contrast variant built entirely on [Tailwind colors used by shadcn-ui](https://ui.shadcn.com/colors), with strong chromatic separation for maximum token differentiation.
 
