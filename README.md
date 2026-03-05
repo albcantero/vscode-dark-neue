@@ -194,13 +194,12 @@ Paste all of this on your `settings.json` and you will get the cleanest and mini
   "breadcrumbs.enabled": false
 }
 ```
-</details>
-
 <p>Get the fonts I've mentioned down below:</p>
 
 | CommitMono (I use this one😎) | Jetbrains Mono | Cascadia Code `updated!` |
 |---|---|---|
 | <a href="https://commitmono.com/" target="_blank" rel="noopener noreferrer">Click here</a> | <a href="https://jetbrains.com/lp/mono/" target="_blank" rel="noopener noreferrer">Click here</a> | <a href="https://github.com/microsoft/cascadia-code" target="_blank" rel="noopener noreferrer">Click here</a> |
+</details>
 
 ## Feedback
 
