@@ -20,7 +20,7 @@
 ## Preview
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/all-themes-preview.webp"/>
+	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/preview.png"/>
 </p>
 
 ### More details
@@ -117,78 +117,85 @@ And finally, my personal favorite: a monochrome and super minimalistic variant i
 6. Select your preferred variant
 
 ## Recommended Settings
-Paste all of this and you will get the cleanest and minimalistic VS Code ever.
+Paste all of this on your `settings.json` and you will get the cleanest and minimalistic VS Code ever.
+
+<details>
+<summary><code>settings.json</code></summary>
+
 ```jsonc
 {
-    "window.zoomLevel": 0.6,
+  "window.zoomLevel": 0.6,
 
-    "editor.fontFamily": "CommitMono",
-    "editor.fontSize": 13,
-    "editor.lineHeight": 1.5,
-    "editor.letterSpacing": 0.15,
+  "editor.fontFamily": "CommitMono",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 1.5,
+  "editor.letterSpacing": 0.15,
 
-	// Jetbrains Mono settings
-    // "editor.fontFamily": "JetBrains Mono",
-    // "editor.fontSize": 13,
-    // "editor.lineHeight": 1.5,
-    // "editor.letterSpacing": 0.2,
+  // Jetbrains Mono settings
+  // "editor.fontFamily": "JetBrains Mono",
+  // "editor.fontSize": 13,
+  // "editor.lineHeight": 1.5,
+  // "editor.letterSpacing": 0.2,
 
-	// Cascadia Code settings
-    // "editor.fontFamily": "Cascadia Code SemiLight",
-    // "editor.fontSize": 14,
-    // "editor.letterSpacing": 0.25,
-    // "editor.lineHeight": 1.5,
+  // Cascadia Code settings
+  // "editor.fontFamily": "Cascadia Code SemiLight",
+  // "editor.fontSize": 14,
+  // "editor.letterSpacing": 0.25,
+  // "editor.lineHeight": 1.5,
 
-    "editor.fontLigatures": true,
-    "editor.fontVariations": true,
-    "editor.tabSize": 4,
-    "editor.unicodeHighlight.nonBasicASCII": false,
-    "editor.occurrencesHighlight": "off",
-    "editor.selectionHighlight": false,
-    "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.wordWrap": "off",
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
-    "editor.semanticHighlighting.enabled": true,
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "visible",
-    "editor.scrollbar.verticalScrollbarSize": 12,
-    "editor.stickyScroll.enabled": false,
-	"editor.minimap.enabled": false,
-    "editor.autoClosingBrackets": "always",
-    "editor.bracketPairColorization.enabled": false,
+  "editor.fontLigatures": true,
+  "editor.fontVariations": true,
+  "editor.tabSize": 4,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.wordWrap": "off",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.verticalScrollbarSize": 12,
+  "editor.stickyScroll.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.autoClosingBrackets": "always",
+  "editor.bracketPairColorization.enabled": false,
 
-    "workbench.productIconTheme": "feather-vscode", // Get it here! -> https://marketplace.visualstudio.com/items?itemName=melishev.feather-vscode
-	"workbench.iconTheme": "jetbrains-file-icon-theme-dark", //Get it here! -> https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-file-icon-theme
-	"workbench.preferredDarkColorTheme": "Visual Studio Dark Modern Neue",
-	"workbench.colorTheme": "Visual Studio Dark Modern Neue",
-    "workbench.activityBar.location": "top",
-    "workbench.tree.renderIndentGuides": "onHover",
-    "workbench.tree.indent": 12,
-    "workbench.tree.enableStickyScroll": false,
-    "workbench.statusBar.visible": true,
-    "workbench.editor.showTabs": "multiple",
-    "workbench.layoutControl.enabled": false,
-    "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false,
-    "workbench.sideBar.location": "left",
-    "workbench.editor.decorations.colors": true,
-    "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.productIconTheme": "feather-vscode",
+  "workbench.iconTheme": "jetbrains-file-icon-theme-dark",
+  "workbench.preferredDarkColorTheme": "Visual Studio Dark Modern Neue",
+  "workbench.colorTheme": "Visual Studio Dark Modern Neue",
+  "workbench.activityBar.location": "top",
+  "workbench.tree.renderIndentGuides": "onHover",
+  "workbench.tree.indent": 12,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.statusBar.visible": true,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.sideBar.location": "left",
+  "workbench.editor.decorations.colors": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
 
-    "breadcrumbs.enabled": false,
-    "window.titleBarStyle": "custom",
-    "window.menuStyle": "inherit",
-    "window.customTitleBarVisibility": "windowed",
-    "window.menuBarVisibility": "compact",
-    "window.commandCenter": false,
-    "window.title": " ",
+  "window.titleBarStyle": "custom",
+  "window.menuStyle": "inherit",
+  "window.customTitleBarVisibility": "windowed",
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "window.title": " ",
 
-    "terminal.integrated.fontFamily": "CommitMono",
-    "terminal.integrated.fontLigatures.enabled": false,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.cursorStyleInactive": "none",
+  "terminal.integrated.fontFamily": "CommitMono",
+  "terminal.integrated.fontLigatures.enabled": false,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "none",
+
+  "breadcrumbs.enabled": false
 }
 ```
+</details>
+
 <p>Get the fonts I've mentioned down below:</p>
 
 | CommitMono (I use this one😎) | Jetbrains Mono | Cascadia Code `updated!` |
