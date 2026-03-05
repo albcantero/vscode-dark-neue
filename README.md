@@ -69,7 +69,15 @@
 
 ## Feedback
 
-Found a bug or have a suggestion? [Open an issue](https://github.com/albcantero/vscode-dark-neue/issues) on GitHub.
+Dark Modern Neue is open source and contributions are welcome!
+
+There are many ways to contribute, from [reporting bugs](https://github.com/albcantero/vscode-dark-neue/issues) and [submitting enhancement suggestions](https://github.com/albcantero/vscode-dark-neue/issues) to improving the themes by [submitting pull requests](https://github.com/albcantero/vscode-dark-neue/pulls).
+
+Found a specific issue with a token or color? [Open an issue](https://github.com/albcantero/vscode-dark-neue/issues) on GitHub and include the language, scope, and a screenshot if possible.
+
+<p align="center">
+  Copyright &copy; 2026 <a href="https://github.com/albcantero" target="_blank">Alberto Cantero</a>
+</p>
 
 <p align="center">
 	<a href="https://github.com/albcantero/vscode-dark-neue/blob/main/LICENSE">
