@@ -196,7 +196,7 @@ And finally, my personal favorite: a monochrome and super minimalistic variant i
 
 ## Feedback
 
-Dark Modern Neue family is and open source project, and contributions are welcome!
+<strong>Dark Modern Neue</strong> family is and open source project, and contributions are welcome!
 
 There are many ways to contribute, from [reporting bugs](https://github.com/albcantero/vscode-dark-neue/issues) and [submitting enhancement suggestions](https://github.com/albcantero/vscode-dark-neue/issues) to improving the themes by [submitting pull requests](https://github.com/albcantero/vscode-dark-neue/pulls).
 
