@@ -2349,7 +2349,8 @@
 			"name": "javadoc and python docstring",
 			"scope": [
 				"comment.block.javadoc.java",
-				"string.quoted.docstring"
+				"string.quoted.docstring",
+				"comment.block.documentation"
 			],
 			"settings": {
 				"foreground": "#67A37CFF"
