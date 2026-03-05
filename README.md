@@ -67,6 +67,22 @@
 }
 ```
 
+## Motivation
+
+I couldn't stand the bright, saturated green that Dark, Dark+, and Dark Modern use for comments:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/horrible-comment.webp"/>
+</p>
+
+So the first thing I did was replace it with a soft italic gray — comments should whisper, not shout.
+
+From there I updated the base colors with warmer, desaturated tones for a more modern feel, drawing inspiration from the Dark 2026 palette released in February. I also looked closely at how Cursor styles its Anywhere theme — which I've also ported to VS Code ([check it out here](LINK)).
+
+Then came a High Contrast variant built entirely on shadcn/Tailwind colors, with strong chromatic separation for maximum token differentiation.
+
+And finally, my personal favorite: a monochrome minimal variant in the spirit of Vercel's aesthetic — near-zero color, inverted hierarchy, with a single elegant teal accent reserved for strings.
+
 ## Feedback
 
 Dark Modern Neue is open source and contributions are welcome!

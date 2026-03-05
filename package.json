@@ -2,8 +2,8 @@
   "name": "vscode-dark-neue",
   "displayName": "Dark Modern Neue",
   "publisher": "albcantero",
-  "description": "A refined Dark Modern theme family for VS Code — base, high contrast, and minimal monochrome variants.",
-  "version": "1.0.1",
+  "description": "The Dark Modern refresh you've been waiting for — refined color hierarchies, a Tailwind/shadcn high contrast variant, and a Vercel-inspired monochrome minimal.",
+  "version": "1.1.0",
   "icon": "images/icon.png",
   "license": "MIT",
   "engines": {
@@ -39,21 +39,21 @@
   "contributes": {
     "themes": [
       {
-        "id": "Visual Studio Dark Modern Neue",
+        "id": "Default Dark Modern Neue",
         "label": "Dark Modern Neue",
         "uiTheme": "vs-dark",
         "path": "./themes/vscode-dark-neue.json"
       },
       {
-        "id": "Visual Studio Dark Modern Neue High Contrast",
+        "id": "Default Dark Modern Neue in High Contrast",
         "label": "Dark Modern Neue (High Contrast)",
         "uiTheme": "vs-dark",
         "path": "./themes/vscode-dark-neue-high-contrast.json"
       },
       {
-        "id": "Visual Studio Dark Modern Minimal",
+        "id": "Default Minimal Dark Modern Neue",
         "label": "Dark Modern Neue (Minimal)",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs-dark", 
         "path": "./themes/vscode-dark-neue-minimal.json"
       }
     ]

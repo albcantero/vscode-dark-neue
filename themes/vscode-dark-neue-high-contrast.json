@@ -2336,10 +2336,11 @@
 			}
 		},
 		{
-			"name": "javadoc tags @param @return @throws",
+			"name": "javadoc and jsdoc tags @param @return @throws",
 			"scope": [
 				"keyword.other.documentation.javadoc.java",
-				"punctuation.definition.block.tag.javadoc"
+				"punctuation.definition.block.tag.javadoc",
+				"storage.type.class.jsdoc"
 			],
 			"settings": {
 				"foreground": "#10b981"
