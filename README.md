@@ -6,13 +6,13 @@
 </h3>
 
 <p align="center">
-	<a href="https://vscode.dev/theme/albcantero.vscode-dark-neue"><img src="https://img.shields.io/badge/preview%20in-vscode.dev-4F8FDD?style=for-the-badge&colorA=0a0a0a&logo=visualstudiocode&logoColor=white"></a>
+	<a href="https://vscode.dev/theme/albcantero.vscode-dark-neue"><img src="https://img.shields.io/badge/preview%20in-vscode.dev-4F8FDD?style=for-the-badge&colorA=0a0a0a&"></a>
 </p>
 
 <p align="center">
 	<a href="https://github.com/albcantero/vscode-dark-neue/stargazers"><img src="https://img.shields.io/github/stars/albcantero/vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&logo=github&logoColor=white"></a>
-	<a href="https://github.com/albcantero/vscode-dark-neue/issues"><img src="https://img.shields.io/github/issues/albcantero/vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&logo=gitbook&logoColor=white"></a>
-	<a href="https://marketplace.visualstudio.com/items?itemName=albcantero.vscode-dark-neue"><img src="https://img.shields.io/visual-studio-marketplace/i/albcantero.vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&label=installs&logo=docsdotrs&logoColor=white"></a>
+	<a href="https://github.com/albcantero/vscode-dark-neue/issues"><img src="https://img.shields.io/github/issues/albcantero/vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&logo=refinedgithub&logoColor=white"></a>
+	<a href="https://marketplace.visualstudio.com/items?itemName=albcantero.vscode-dark-neue"><img src="https://img.shields.io/visual-studio-marketplace/i/albcantero.vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&label=installs&logo=githubsponsors&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -164,7 +164,7 @@ From there I updated the base colors with warmer, desaturated tones for a more m
 
 Then came a High Contrast variant built entirely on [Tailwind colors used by shadcn-ui](https://ui.shadcn.com/colors), with strong chromatic separation for maximum token differentiation.
 
-| Token | Default | `shadcn-ui` High Contrast |
+| Token | Default | ![shadcn-ui](https://img.shields.io/badge/-shadcn--ui-000000?logo=shadcnui) High Contrast |
 |---|---|---|
 | Comments | ![#494949](https://img.shields.io/badge/-%23494949-494949) | ![neutral-750](https://img.shields.io/badge/-neutral--750-333333) |
 | Strings | ![#CE8078](https://img.shields.io/badge/-%23CE8078-CE8078) | ![red-350](https://img.shields.io/badge/-red--350-F4806E) |
@@ -180,7 +180,7 @@ Then came a High Contrast variant built entirely on [Tailwind colors used by sha
 
 And finally, my personal favorite: a monochrome and super minimalistic variant in the spirit of [Vercel's aesthetic](https://vercel.com/) — near-zero color, inverted hierarchy, with a single elegant teal accent reserved for strings.
 
-| Token | `▲` Minimal |
+| Token | ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel) Minimal |
 |---|---|
 | Comments | ![#262626](https://img.shields.io/badge/-%23262626-262626) ![italic](https://img.shields.io/badge/-italic-262626) |
 | Strings | ![#7DCFCA](https://img.shields.io/badge/-%237DCFCA-7DCFCA) |
