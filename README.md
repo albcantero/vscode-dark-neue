@@ -67,7 +67,7 @@
 }
 ```
 
-## Motivation
+## How I made it
 
 I couldn't stand the bright, saturated green that Dark, Dark+, and Dark Modern use for comments:
 
@@ -76,6 +76,20 @@ I couldn't stand the bright, saturated green that Dark, Dark+, and Dark Modern u
 </p>
 
 So the first thing I did was replace it with a soft italic gray — comments should whisper, not shout.
+
+| Token | Dark Modern | `NEW!` Dark Modern Neue |
+|---|---|---|
+| Comments | ![#6A9955](https://img.shields.io/badge/-%236A9955-6A9955) | ![#494949](https://img.shields.io/badge/-%23494949-494949) ![italic](https://img.shields.io/badge/-italic-262626) |
+| Strings | ![#CE9178](https://img.shields.io/badge/-%23CE9178-CE9178) | ![#CE8078](https://img.shields.io/badge/-%23CE8078-CE8078) |
+| Keywords / Storage | ![#569CD6](https://img.shields.io/badge/-%23569CD6-569CD6) | ![#4F8FDD](https://img.shields.io/badge/-%234F8FDD-4F8FDD) |
+| Functions | ![#DCDCAA](https://img.shields.io/badge/-%23DCDCAA-DCDCAA) | ![#D1D6AE](https://img.shields.io/badge/-%23D1D6AE-D1D6AE) |
+| Types / Classes | ![#4EC9B0](https://img.shields.io/badge/-%234EC9B0-4EC9B0) | ![#48C9C4](https://img.shields.io/badge/-%2348C9C4-48C9C4) |
+| Variables | ![#9CDCFE](https://img.shields.io/badge/-%239CDCFE-9CDCFE) | ![#90D5FF](https://img.shields.io/badge/-%2390D5FF-90D5FF) |
+| Constants / Enums | ![#4FC1FF](https://img.shields.io/badge/-%234FC1FF-4FC1FF) | ![#4CBDFF](https://img.shields.io/badge/-%234CBDFF-4CBDFF) |
+| Numbers | ![#B5CEA8](https://img.shields.io/badge/-%23B5CEA8-B5CEA8) | ![#A8CAAD](https://img.shields.io/badge/-%23A8CAAD-A8CAAD) |
+| Control flow | ![#C586C0](https://img.shields.io/badge/-%23C586C0-C586C0) | ![#C184C6](https://img.shields.io/badge/-%23C184C6-C184C6) |
+| Properties | ![#9CDCFE](https://img.shields.io/badge/-%239CDCFE-9CDCFE) | ![#646695](https://img.shields.io/badge/-%23646695-646695) ![italic](https://img.shields.io/badge/-italic-262626) |
+| Regex | ![#D16969](https://img.shields.io/badge/-%23D16969-D16969) | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) |
 
 From there I updated the base colors with warmer, desaturated tones for a more modern feel, drawing inspiration from the Dark 2026 palette released in February. I also looked closely at how Cursor styles its Anywhere theme — which I've also ported to VS Code ([check it out here](LINK)).
 
