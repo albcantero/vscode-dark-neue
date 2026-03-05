@@ -40,7 +40,7 @@ Monochrome with a single teal accent (`#7DCFCA`) for strings. A clean, distracti
   "editor.letterSpacing": 0.15,
   "editor.fontLigatures": true,
   "editor.fontVariations": true,
-}s
+}
 ```
 
 ## Feedback
