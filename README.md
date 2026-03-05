@@ -18,17 +18,17 @@
 ## Previews
 
 <details>
-<summary>🌑 Dark Modern Neue</summary>
+<summary>Dark Modern Neue</summary>
 <img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/default.webp"/>
 </details>
 
 <details>
-<summary>⚡ Dark Modern Neue — High Contrast</summary>
+<summary>Dark Modern Neue — High Contrast</summary>
 <img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/high-contrast.webp"/>
 </details>
 
 <details>
-<summary>◻️ Dark Modern Neue — Minimal</summary>
+<summary>Dark Modern Neue — Minimal</summary>
 <img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/minimal.webp"/>
 </details>
 
