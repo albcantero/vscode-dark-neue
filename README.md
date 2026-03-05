@@ -72,7 +72,7 @@
 I couldn't stand the bright, saturated green that Dark, Dark+, and Dark Modern use for comments:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/horrible-comment.webp"/>
+  <img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/horrible-comment.webp" width="350"/>
 </p>
 
 So the first thing I did was replace it with a soft italic gray — comments should whisper, not shout.
