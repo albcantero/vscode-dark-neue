@@ -1,8 +1,6 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/images/icon.png" width="100" alt="Logo"/><br/>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 	Dark Modern Neue for <a href="https://code.visualstudio.com">Visual Studio Code</a>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
@@ -16,33 +14,98 @@
 </p>
 
 <p align="center">
+	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/hero.png"/>
+</p>
+
+## Preview
+
+<p align="center">
 	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/all-themes-preview.webp"/>
 </p>
 
-## Previews
-
+### More details
 <details>
 <summary>Dark Modern Neue</summary>
-<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/default.webp"/>
+	<p>Warm desaturated palette. Salmon strings, teal types, sky variables. Chromatic balance over high contrast — every token family is luminosity-matched.</p>
+	<p align=center>
+		<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/default.webp" width="800"/>
+	</p>
 </details>
 
 <details>
 <summary>Dark Modern Neue — High Contrast</summary>
-<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/high-contrast.webp"/>
+	<p>Full saturation shadcn/ui-based colors. Electric indigo, fuchsia, sky, and emerald with strong chromatic separation. Built for maximum token differentiation.</p>
+	<p align=center>
+		<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/high-contrast.webp" width="800"/>
+	</p>
 </details>
 
 <details>
 <summary>Dark Modern Neue — Minimal</summary>
-<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/minimal.webp"/>
+	<p>Near-monochrome neutral scale with a single teal accent for strings. Keywords are darker than identifiers — the code reads through content, not syntax.</p>
+	<p align=center> 
+		<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/minimal.webp" width="800"/>
+	</p>
+	
 </details>
 
-## Variants
+## How I made it
 
-**Dark Modern Neue** — Warm desaturated palette. Salmon strings, teal types, sky variables. Chromatic balance over high contrast — every token family is luminosity-matched.
+I couldn't stand the bright, saturated green that Dark, Dark+, and Dark Modern use for comments:
 
-**Dark Modern Neue (High Contrast)** — Full saturation Tailwind-based colors. Electric indigo, fuchsia, sky, and emerald with strong chromatic separation. Built for maximum token differentiation.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/horrible-comment.webp" width="300"/>
+</p>
 
-**Dark Modern Neue (Minimal)** — Near-monochrome neutral scale with a single teal accent (`#7DCFCA`) for strings. Keywords are darker than identifiers — the code reads through content, not syntax.
+So the first thing I did was replace it with a soft italic gray — comments should whisper, not shout.
+
+From there I updated the base colors with warmer, desaturated tones for a more modern feel, drawing inspiration from the Dark 2026 palette released in February. I also looked closely at how Cursor styles its Anywhere theme — which I've also ported to VS Code ([check it out here](LINK)).
+
+| Token | Dark Modern | `NEW!` Dark Modern Neue |
+|---|---|---|
+| Comments | ![#6A9955](https://img.shields.io/badge/-%236A9955-6A9955) | ![#494949](https://img.shields.io/badge/-%23494949-494949) ![italic](https://img.shields.io/badge/-italic-262626) |
+| Strings | ![#CE9178](https://img.shields.io/badge/-%23CE9178-CE9178) | ![#CE8078](https://img.shields.io/badge/-%23CE8078-CE8078) |
+| Keywords / Storage | ![#569CD6](https://img.shields.io/badge/-%23569CD6-569CD6) | ![#4F8FDD](https://img.shields.io/badge/-%234F8FDD-4F8FDD) |
+| Functions | ![#DCDCAA](https://img.shields.io/badge/-%23DCDCAA-DCDCAA) | ![#D1D6AE](https://img.shields.io/badge/-%23D1D6AE-D1D6AE) |
+| Types / Classes | ![#4EC9B0](https://img.shields.io/badge/-%234EC9B0-4EC9B0) | ![#48C9C4](https://img.shields.io/badge/-%2348C9C4-48C9C4) |
+| Variables | ![#9CDCFE](https://img.shields.io/badge/-%239CDCFE-9CDCFE) | ![#90D5FF](https://img.shields.io/badge/-%2390D5FF-90D5FF) |
+| Constants / Enums | ![#4FC1FF](https://img.shields.io/badge/-%234FC1FF-4FC1FF) | ![#4CBDFF](https://img.shields.io/badge/-%234CBDFF-4CBDFF) |
+| Numbers | ![#B5CEA8](https://img.shields.io/badge/-%23B5CEA8-B5CEA8) | ![#A8CAAD](https://img.shields.io/badge/-%23A8CAAD-A8CAAD) |
+| Control flow | ![#C586C0](https://img.shields.io/badge/-%23C586C0-C586C0) | ![#C184C6](https://img.shields.io/badge/-%23C184C6-C184C6) |
+| Properties | ![#9CDCFE](https://img.shields.io/badge/-%239CDCFE-9CDCFE) | ![#646695](https://img.shields.io/badge/-%23646695-646695) ![italic](https://img.shields.io/badge/-italic-262626) |
+| Regex | ![#D16969](https://img.shields.io/badge/-%23D16969-D16969) | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) |
+
+Then came a High Contrast variant built entirely on [Tailwind colors used by shadcn-ui](https://ui.shadcn.com/colors), with strong chromatic separation for maximum token differentiation.
+
+| Token | Default | ![shadcn-ui](https://img.shields.io/badge/-shadcn--ui-000000?logo=shadcnui) High Contrast |
+|---|---|---|
+| Comments | ![#494949](https://img.shields.io/badge/-%23494949-494949) | ![neutral-750](https://img.shields.io/badge/-neutral--750-333333) |
+| Strings | ![#CE8078](https://img.shields.io/badge/-%23CE8078-CE8078) | ![red-350](https://img.shields.io/badge/-red--350-F4806E) |
+| Keywords / Storage | ![#4F8FDD](https://img.shields.io/badge/-%234F8FDD-4F8FDD) | ![blue-500](https://img.shields.io/badge/-blue--500-3b82f6) |
+| Functions | ![#D1D6AE](https://img.shields.io/badge/-%23D1D6AE-D1D6AE) | ![amber-150](https://img.shields.io/badge/-amber--150-FEECA8) |
+| Types / Classes | ![#48C9C4](https://img.shields.io/badge/-%2348C9C4-48C9C4) | ![emerald-250](https://img.shields.io/badge/-emerald--250-82dfd0) |
+| Variables | ![#90D5FF](https://img.shields.io/badge/-%2390D5FF-90D5FF) | ![sky-300](https://img.shields.io/badge/-sky--300-7dd3fc) |
+| Constants / Enums | ![#4CBDFF](https://img.shields.io/badge/-%234CBDFF-4CBDFF) | ![sky-400](https://img.shields.io/badge/-sky--400-38bdf8) |
+| Numbers | ![#A8CAAD](https://img.shields.io/badge/-%23A8CAAD-A8CAAD) | ![green-300](https://img.shields.io/badge/-green--300-86efac) |
+| Control flow | ![#C184C6](https://img.shields.io/badge/-%23C184C6-C184C6) | ![fuchsia-350](https://img.shields.io/badge/-fuchsia--350-EB91FA) |
+| Properties | ![#646695](https://img.shields.io/badge/-%23646695-646695) | ![slate-450](https://img.shields.io/badge/-slate--450-7274b5) |
+| Regex | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) | ![rose-450](https://img.shields.io/badge/-rose--450-FF6B72) |
+
+And finally, my personal favorite: a monochrome and super minimalistic variant in the spirit of [Vercel's aesthetic](https://vercel.com/) — near-zero color, inverted hierarchy, with a single elegant teal accent reserved for strings.
+
+| Token | ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel) Minimal |
+|---|---|
+| Comments | ![#262626](https://img.shields.io/badge/-%23262626-262626) ![italic](https://img.shields.io/badge/-italic-262626) |
+| Strings | ![#7DCFCA](https://img.shields.io/badge/-%237DCFCA-7DCFCA) |
+| Keywords / Storage | ![#525252](https://img.shields.io/badge/-%23525252-525252) |
+| Functions | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
+| Types / Classes | ![#525252](https://img.shields.io/badge/-%23525252-525252) |
+| Variables | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
+| Constants / Enums | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
+| Numbers | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
+| Control flow | ![#525252](https://img.shields.io/badge/-%23525252-525252) |
+| Properties | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) ![italic](https://img.shields.io/badge/-italic-262626) |
+| Regex | ![#737373](https://img.shields.io/badge/-%23737373-737373) |
 
 ## Installation
 
@@ -131,68 +194,6 @@ Paste all of this and you will get the cleanest and minimalistic VS Code ever.
 | CommitMono (I use this one😎) | Jetbrains Mono | Cascadia Code `updated!` |
 |---|---|---|
 | <a href="https://commitmono.com/" target="_blank" rel="noopener noreferrer">Click here</a> | <a href="https://jetbrains.com/lp/mono/" target="_blank" rel="noopener noreferrer">Click here</a> | <a href="https://github.com/microsoft/cascadia-code" target="_blank" rel="noopener noreferrer">Click here</a> |
-
-
-
-
-
-## How I made it
-
-I couldn't stand the bright, saturated green that Dark, Dark+, and Dark Modern use for comments:
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/horrible-comment.webp" width="350"/>
-</p>
-
-So the first thing I did was replace it with a soft italic gray — comments should whisper, not shout.
-
-From there I updated the base colors with warmer, desaturated tones for a more modern feel, drawing inspiration from the Dark 2026 palette released in February. I also looked closely at how Cursor styles its Anywhere theme — which I've also ported to VS Code ([check it out here](LINK)).
-
-| Token | Dark Modern | `NEW!` Dark Modern Neue |
-|---|---|---|
-| Comments | ![#6A9955](https://img.shields.io/badge/-%236A9955-6A9955) | ![#494949](https://img.shields.io/badge/-%23494949-494949) ![italic](https://img.shields.io/badge/-italic-262626) |
-| Strings | ![#CE9178](https://img.shields.io/badge/-%23CE9178-CE9178) | ![#CE8078](https://img.shields.io/badge/-%23CE8078-CE8078) |
-| Keywords / Storage | ![#569CD6](https://img.shields.io/badge/-%23569CD6-569CD6) | ![#4F8FDD](https://img.shields.io/badge/-%234F8FDD-4F8FDD) |
-| Functions | ![#DCDCAA](https://img.shields.io/badge/-%23DCDCAA-DCDCAA) | ![#D1D6AE](https://img.shields.io/badge/-%23D1D6AE-D1D6AE) |
-| Types / Classes | ![#4EC9B0](https://img.shields.io/badge/-%234EC9B0-4EC9B0) | ![#48C9C4](https://img.shields.io/badge/-%2348C9C4-48C9C4) |
-| Variables | ![#9CDCFE](https://img.shields.io/badge/-%239CDCFE-9CDCFE) | ![#90D5FF](https://img.shields.io/badge/-%2390D5FF-90D5FF) |
-| Constants / Enums | ![#4FC1FF](https://img.shields.io/badge/-%234FC1FF-4FC1FF) | ![#4CBDFF](https://img.shields.io/badge/-%234CBDFF-4CBDFF) |
-| Numbers | ![#B5CEA8](https://img.shields.io/badge/-%23B5CEA8-B5CEA8) | ![#A8CAAD](https://img.shields.io/badge/-%23A8CAAD-A8CAAD) |
-| Control flow | ![#C586C0](https://img.shields.io/badge/-%23C586C0-C586C0) | ![#C184C6](https://img.shields.io/badge/-%23C184C6-C184C6) |
-| Properties | ![#9CDCFE](https://img.shields.io/badge/-%239CDCFE-9CDCFE) | ![#646695](https://img.shields.io/badge/-%23646695-646695) ![italic](https://img.shields.io/badge/-italic-262626) |
-| Regex | ![#D16969](https://img.shields.io/badge/-%23D16969-D16969) | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) |
-
-Then came a High Contrast variant built entirely on [Tailwind colors used by shadcn-ui](https://ui.shadcn.com/colors), with strong chromatic separation for maximum token differentiation.
-
-| Token | Default | ![shadcn-ui](https://img.shields.io/badge/-shadcn--ui-000000?logo=shadcnui) High Contrast |
-|---|---|---|
-| Comments | ![#494949](https://img.shields.io/badge/-%23494949-494949) | ![neutral-750](https://img.shields.io/badge/-neutral--750-333333) |
-| Strings | ![#CE8078](https://img.shields.io/badge/-%23CE8078-CE8078) | ![red-350](https://img.shields.io/badge/-red--350-F4806E) |
-| Keywords / Storage | ![#4F8FDD](https://img.shields.io/badge/-%234F8FDD-4F8FDD) | ![blue-500](https://img.shields.io/badge/-blue--500-3b82f6) |
-| Functions | ![#D1D6AE](https://img.shields.io/badge/-%23D1D6AE-D1D6AE) | ![amber-150](https://img.shields.io/badge/-amber--150-FEECA8) |
-| Types / Classes | ![#48C9C4](https://img.shields.io/badge/-%2348C9C4-48C9C4) | ![emerald-250](https://img.shields.io/badge/-emerald--250-82dfd0) |
-| Variables | ![#90D5FF](https://img.shields.io/badge/-%2390D5FF-90D5FF) | ![sky-300](https://img.shields.io/badge/-sky--300-7dd3fc) |
-| Constants / Enums | ![#4CBDFF](https://img.shields.io/badge/-%234CBDFF-4CBDFF) | ![sky-400](https://img.shields.io/badge/-sky--400-38bdf8) |
-| Numbers | ![#A8CAAD](https://img.shields.io/badge/-%23A8CAAD-A8CAAD) | ![green-300](https://img.shields.io/badge/-green--300-86efac) |
-| Control flow | ![#C184C6](https://img.shields.io/badge/-%23C184C6-C184C6) | ![fuchsia-350](https://img.shields.io/badge/-fuchsia--350-EB91FA) |
-| Properties | ![#646695](https://img.shields.io/badge/-%23646695-646695) | ![slate-450](https://img.shields.io/badge/-slate--450-7274b5) |
-| Regex | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) | ![rose-450](https://img.shields.io/badge/-rose--450-FF6B72) |
-
-And finally, my personal favorite: a monochrome and super minimalistic variant in the spirit of [Vercel's aesthetic](https://vercel.com/) — near-zero color, inverted hierarchy, with a single elegant teal accent reserved for strings.
-
-| Token | ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel) Minimal |
-|---|---|
-| Comments | ![#262626](https://img.shields.io/badge/-%23262626-262626) ![italic](https://img.shields.io/badge/-italic-262626) |
-| Strings | ![#7DCFCA](https://img.shields.io/badge/-%237DCFCA-7DCFCA) |
-| Keywords / Storage | ![#525252](https://img.shields.io/badge/-%23525252-525252) |
-| Functions | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
-| Types / Classes | ![#525252](https://img.shields.io/badge/-%23525252-525252) |
-| Variables | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
-| Constants / Enums | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
-| Numbers | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
-| Control flow | ![#525252](https://img.shields.io/badge/-%23525252-525252) |
-| Properties | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) ![italic](https://img.shields.io/badge/-italic-262626) |
-| Regex | ![#737373](https://img.shields.io/badge/-%23737373-737373) |
 
 ## Feedback
 
