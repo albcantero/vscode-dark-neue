@@ -51,10 +51,14 @@
 I couldn't stand the bright, saturated green that Dark, Dark+, and Dark Modern use for comments:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/horrible-comment.webp" width="300" alt="Old horrible bright green comments comparison"/>
+  <img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/horrible-comment.png" width="400" alt="Old horrible bright green comment"/>
 </p>
 
 So the first thing I did was replace it with a soft italic gray — comments should whisper, not shout.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/fixed-comment.png" width="400" alt="New gray comment comparison"/>
+</p>
 
 From there I updated the base colors with warmer, desaturated tones for a more modern feel, drawing inspiration from the Dark 2026 palette released in February. I also looked closely at how Cursor styles its Anywhere theme — which I've also ported to VS Code ([check it out here](LINK)).
 
