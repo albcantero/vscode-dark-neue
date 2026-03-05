@@ -202,6 +202,7 @@ There are many ways to contribute, from [reporting bugs](https://github.com/albc
 
 Found a specific issue with a token or color? [Open an issue](https://github.com/albcantero/vscode-dark-neue/issues) on GitHub and include the language, scope, and a screenshot if possible.
 
+## 
 <p align="center">
   Copyright &copy; 2026 <a href="https://github.com/albcantero" target="_blank">Alberto Cantero</a>
 </p>
