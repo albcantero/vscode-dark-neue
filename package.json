@@ -1,0 +1,61 @@
+{
+  "name": "vscode-dark-neue",
+  "displayName": "Dark Modern Neue",
+  "publisher": "albcantero",
+  "description": "A refined Dark Modern theme family for VS Code — base, high contrast, and minimal monochrome variants.",
+  "version": "1.0.0",
+  "icon": "images/icon.png",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "dark modern",
+    "minimal",
+    "shadcn",
+    "vercel",
+    "monochrome",
+    "black",
+    "high contrast",
+    "color theme"
+  ],
+  "galleryBanner": {
+    "color": "#0a0a0a",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albcantero/vscode-dark-neue"
+  },
+  "homepage": "https://github.com/albcantero/vscode-dark-neue/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/albcantero/vscode-dark-neue/issues"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "Visual Studio Dark Modern Neue",
+        "label": "Dark Modern Neue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vscode-dark-neue.json"
+      },
+      {
+        "id": "Visual Studio Dark Modern Neue High Contrast",
+        "label": "Dark Modern Neue (High Contrast)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vscode-dark-neue-hc.json"
+      },
+      {
+        "id": "Visual Studio Dark Modern Minimal",
+        "label": "Dark Modern Neue (Minimal)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vscode-dark-neue-mn.json"
+      }
+    ]
+  }
+}
