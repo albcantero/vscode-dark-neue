@@ -6,6 +6,10 @@
 </h3>
 
 <p align="center">
+	<a href="https://vscode.dev/theme/albcantero.vscode-dark-neue"><img src="https://img.shields.io/badge/preview%20in-vscode.dev-4F8FDD?style=for-the-badge&colorA=0a0a0a&logo=visualstudiocode&logoColor=white"></a>
+</p>
+
+<p align="center">
 	<a href="https://github.com/albcantero/vscode-dark-neue/stargazers"><img src="https://img.shields.io/github/stars/albcantero/vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&logo=github&logoColor=white"></a>
 	<a href="https://github.com/albcantero/vscode-dark-neue/issues"><img src="https://img.shields.io/github/issues/albcantero/vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&logo=gitbook&logoColor=white"></a>
 	<a href="https://marketplace.visualstudio.com/items?itemName=albcantero.vscode-dark-neue"><img src="https://img.shields.io/visual-studio-marketplace/i/albcantero.vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&label=installs&logo=docsdotrs&logoColor=white"></a>
