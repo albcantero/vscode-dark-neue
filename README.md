@@ -28,7 +28,7 @@
 <summary>Dark Modern Neue</summary>
 	<p>Warm desaturated palette. Salmon strings, teal types, sky variables. Chromatic balance over high contrast — every token family is luminosity-matched.</p>
 	<p align=center>
-		<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/default.webp" width="800" alt="Dark Modern Neue Default Variant Showcase"/>
+		<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/default.png" width="800" alt="Dark Modern Neue Default Variant Showcase"/>
 	</p>
 </details>
 
@@ -36,7 +36,7 @@
 <summary>Dark Modern Neue — High Contrast</summary>
 	<p>Full saturation shadcn/ui-based colors. Electric indigo, fuchsia, sky, and emerald with strong chromatic separation. Built for maximum token differentiation.</p>
 	<p align=center>
-		<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/high-contrast.webp" width="800" alt="Dark Modern Neue High Contrast Variant Showcase"/>
+		<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/high-contrast.png" width="800" alt="Dark Modern Neue High Contrast Variant Showcase"/>
 	</p>
 </details>
 
@@ -44,7 +44,7 @@
 <summary>Dark Modern Neue — Minimal</summary>
 	<p>Near-monochrome neutral scale with a single teal accent for strings. Keywords are darker than identifiers — the code reads through content, not syntax.</p>
 	<p align=center> 
-		<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/minimal.webp" width="800" alt="Dark Modern Neue Minimal Variant Showcase"/>
+		<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/minimal.png" width="800" alt="Dark Modern Neue Minimal Variant Showcase"/>
 	</p>
 	
 </details>
