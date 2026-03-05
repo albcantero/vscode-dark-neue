@@ -93,13 +93,41 @@ So the first thing I did was replace it with a soft italic gray — comments sho
 
 From there I updated the base colors with warmer, desaturated tones for a more modern feel, drawing inspiration from the Dark 2026 palette released in February. I also looked closely at how Cursor styles its Anywhere theme — which I've also ported to VS Code ([check it out here](LINK)).
 
-Then came a High Contrast variant built entirely on [shadcn/Tailwind colors](https://ui.shadcn.com/colors), with strong chromatic separation for maximum token differentiation.
+Then came a High Contrast variant built entirely on [Tailwind colors used by shadcn-ui](https://ui.shadcn.com/colors), with strong chromatic separation for maximum token differentiation.
+
+| Token | Default | `shadcn-ui` High Contrast |
+|---|---|---|
+| Comments | ![#494949](https://img.shields.io/badge/-%23494949-494949) | ![neutral-750](https://img.shields.io/badge/-neutral--750-333333) |
+| Strings | ![#CE8078](https://img.shields.io/badge/-%23CE8078-CE8078) | ![red-350](https://img.shields.io/badge/-red--350-F4806E) |
+| Keywords / Storage | ![#4F8FDD](https://img.shields.io/badge/-%234F8FDD-4F8FDD) | ![blue-500](https://img.shields.io/badge/-blue--500-3b82f6) |
+| Functions | ![#D1D6AE](https://img.shields.io/badge/-%23D1D6AE-D1D6AE) | ![amber-150](https://img.shields.io/badge/-amber--150-FEECA8) |
+| Types / Classes | ![#48C9C4](https://img.shields.io/badge/-%2348C9C4-48C9C4) | ![emerald-250](https://img.shields.io/badge/-emerald--250-82dfd0) |
+| Variables | ![#90D5FF](https://img.shields.io/badge/-%2390D5FF-90D5FF) | ![sky-300](https://img.shields.io/badge/-sky--300-7dd3fc) |
+| Constants / Enums | ![#4CBDFF](https://img.shields.io/badge/-%234CBDFF-4CBDFF) | ![sky-400](https://img.shields.io/badge/-sky--400-38bdf8) |
+| Numbers | ![#A8CAAD](https://img.shields.io/badge/-%23A8CAAD-A8CAAD) | ![green-300](https://img.shields.io/badge/-green--300-86efac) |
+| Control flow | ![#C184C6](https://img.shields.io/badge/-%23C184C6-C184C6) | ![fuchsia-350](https://img.shields.io/badge/-fuchsia--350-EB91FA) |
+| Properties | ![#646695](https://img.shields.io/badge/-%23646695-646695) | ![slate-450](https://img.shields.io/badge/-slate--450-7274b5) |
+| Regex | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) | ![rose-450](https://img.shields.io/badge/-rose--450-FF6B72) |
 
 And finally, my personal favorite: a monochrome and super minimalistic variant in the spirit of [Vercel's aesthetic](https://vercel.com/) — near-zero color, inverted hierarchy, with a single elegant teal accent reserved for strings.
 
+| Token | `▲` Minimal |
+|---|---|
+| Comments | ![#262626](https://img.shields.io/badge/-%23262626-262626) ![italic](https://img.shields.io/badge/-italic-262626) |
+| Strings | ![#7DCFCA](https://img.shields.io/badge/-%237DCFCA-7DCFCA) |
+| Keywords / Storage | ![#525252](https://img.shields.io/badge/-%23525252-525252) |
+| Functions | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
+| Types / Classes | ![#525252](https://img.shields.io/badge/-%23525252-525252) |
+| Variables | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
+| Constants / Enums | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
+| Numbers | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
+| Control flow | ![#525252](https://img.shields.io/badge/-%23525252-525252) |
+| Properties | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) ![italic](https://img.shields.io/badge/-italic-262626) |
+| Regex | ![#737373](https://img.shields.io/badge/-%23737373-737373) |
+
 ## Feedback
 
-Dark Modern Neue is open source and contributions are welcome!
+Dark Modern Neue family is and open source project, and contributions are welcome!
 
 There are many ways to contribute, from [reporting bugs](https://github.com/albcantero/vscode-dark-neue/issues) and [submitting enhancement suggestions](https://github.com/albcantero/vscode-dark-neue/issues) to improving the themes by [submitting pull requests](https://github.com/albcantero/vscode-dark-neue/pulls).
 
