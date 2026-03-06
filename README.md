@@ -221,7 +221,7 @@ Paste all of this on your `settings.json` and you will get the cleanest and mini
 
 ## Feedback
 
-<strong>Dark Modern Neue</strong> family is and open source project, and contributions are welcome!
+<strong>Dark Modern Neue</strong> family is an open source project, and contributions are welcome!
 
 There are many ways to contribute, from [reporting bugs](https://github.com/albcantero/vscode-dark-neue/issues) and [submitting enhancement suggestions](https://github.com/albcantero/vscode-dark-neue/issues) to improving the themes by [submitting pull requests](https://github.com/albcantero/vscode-dark-neue/pulls).
 
