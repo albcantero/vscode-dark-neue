@@ -14,9 +14,13 @@
 	<a href="https://marketplace.visualstudio.com/items?itemName=albcantero.vscode-dark-neue"><img src="https://img.shields.io/visual-studio-marketplace/i/albcantero.vscode-dark-neue?colorA=0a0a0a&colorB=4F8FDD&style=flat-square&label=installs&logo=docsdotrs&logoColor=white" alt="Marketplace installs"></a>
 </p>
 
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png" height="15">
+
 <p align="center">
 	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/hero.png" alt="Dark Modern Neue Hero Banner"/>
 </p>
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png" height="30">
 
 ## Preview
 
@@ -47,6 +51,8 @@
 </p>
 
 </details>
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png" height="30">
 
 ## How I made it
 
@@ -126,6 +132,8 @@ And finally, my personal favorite: a monochrome and super minimalistic variant i
 
 </details>
 
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png" height="30">
+
 ## Installation
 
 1. Open VS Code
@@ -134,6 +142,8 @@ And finally, my personal favorite: a monochrome and super minimalistic variant i
 4. Click **Install**
 5. Open Command Palette (`Ctrl+Shift+P`) → `Preferences: Color Theme`
 6. Select your preferred variant
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png" height="30">
 
 ## Recommended Settings
 Paste all of this on your `settings.json` and you will get the cleanest and minimalistic VS Code ever.
@@ -220,6 +230,8 @@ Paste all of this on your `settings.json` and you will get the cleanest and mini
 | <a href="https://commitmono.com/" target="_blank" rel="noopener noreferrer">Download</a> | <a href="https://jetbrains.com/lp/mono/" target="_blank" rel="noopener noreferrer">Download</a> | <a href="https://github.com/microsoft/cascadia-code" target="_blank" rel="noopener noreferrer">Download</a> |
 </details>
 
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png" height="30">
+
 ## Feedback
 
 <strong>Dark Modern Neue</strong> family is an open source project, and contributions are welcome!
@@ -228,7 +240,10 @@ There are many ways to contribute, from [reporting bugs](https://github.com/albc
 
 Found a specific issue with a token or color? [Open an issue](https://github.com/albcantero/vscode-dark-neue/issues) on GitHub and include the language, scope, and a screenshot if possible.
 
-## 
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png" height="30">
+
+---
+
 <p align="center">
   Copyright &copy; 2026 <a href="https://github.com/albcantero" target="_blank">Alberto Cantero</a>
 </p>
