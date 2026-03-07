@@ -249,6 +249,14 @@ Found a specific issue with a token or color? [Open an issue](https://github.com
 </p>
 
 <p align="center">
+	<a href="https://ko-fi.com/albcantero">
+		<img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi"/>
+	</a>
+</p>
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png" height="10">
+
+<p align="center">
 	<a href="https://github.com/albcantero/vscode-dark-neue/blob/main/LICENSE">
 		<img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&colorA=0a0a0a&colorB=4F8FDD" alt="License MIT"/>
 	</a>
