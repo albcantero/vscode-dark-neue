@@ -1,5 +1,6 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/images/icon.png" width="100" alt="Dark Modern Neue Logo"/><br/>
+	<img src="https://img.shields.io/badge/New!-f14144" alt="New">
 	Dark Modern Neue for <a href="https://code.visualstudio.com">Visual Studio Code</a>
 </h3>
 
