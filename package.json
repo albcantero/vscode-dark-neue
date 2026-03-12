@@ -3,7 +3,7 @@
   "displayName": "Dark Modern Neue",
   "publisher": "albcantero",
   "description": "The Dark Modern refresh you've been waiting for — refined color hierarchies, a Tailwind/shadcn high contrast variant, and a Vercel-inspired monochrome minimal.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "icon": "images/icon.png",
   "license": "MIT",
   "engines": {
