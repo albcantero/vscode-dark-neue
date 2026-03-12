@@ -38,8 +38,8 @@
 		"editor.findRangeHighlightBackground": "#FFFFFF33",
 		"editor.hoverHighlightBackground": "#24242480",
 		"editor.inactiveSelectionBackground": "#0cc5b315",
-		"editor.lineHighlightBackground": "#101010",
-		"editor.lineHighlightBorder": "#101010",
+		"editor.lineHighlightBackground": "#161616",
+		"editor.lineHighlightBorder": "#161616",
 		"editor.rangeHighlightBackground": "#40404052",
 		"editor.selectionBackground": "#0cc5b330",
 		"editor.selectionHighlightBackground": "#0cc5b318",
@@ -52,7 +52,7 @@
 		"editorCodeLens.foreground": "#747474",
 		"editorCursor.foreground": "#ededed",
 		"editorError.border": "#BF616A00",
-		"editorError.foreground": "#f44747",
+		"editorError.foreground": "#f14445",
 		"editorGroup.border": "#00000000",
 		"editorGroup.dropBackground": "#2A2A2A99",
 		"editorGroup.emptyBackground": "#0a0a0a",
@@ -61,7 +61,7 @@
 		"editorGroupHeader.tabsBorder": "#00000000",
 		"editorGutter.addedBackground": "#747474",
 		"editorGutter.background": "#000000",
-		"editorGutter.deletedBackground": "#f44747",
+		"editorGutter.deletedBackground": "#f14445",
 		"editorGutter.modifiedBackground": "#a1a1a1",
 		"editorHoverWidget.background": "#000000",
 		"editorHoverWidget.border": "#171717",
@@ -98,7 +98,7 @@
 		"extensionButton.prominentForeground": "#ededed",
 		"extensionButton.prominentHoverBackground": "#818181",
 		"gitDecoration.addedResourceForeground": "#747474",
-		"gitDecoration.deletedResourceForeground": "#f44747",
+		"gitDecoration.deletedResourceForeground": "#f14445",
 		"gitDecoration.ignoredResourceForeground": "#747474",
 		"gitDecoration.modifiedResourceForeground": "#a1a1a1",
 		"gitDecoration.untrackedResourceForeground": "#747474",
@@ -107,8 +107,8 @@
 		"input.foreground": "#ededed",
 		"input.placeholderForeground": "#FFFFFF99",
 		"inputOption.activeBorder": "#ededed",
-		"inputValidation.errorBackground": "#f44747",
-		"inputValidation.errorBorder": "#f44747",
+		"inputValidation.errorBackground": "#f14445",
+		"inputValidation.errorBorder": "#f14445",
 		"inputValidation.infoBackground": "#747474",
 		"inputValidation.infoBorder": "#747474",
 		"inputValidation.infoForeground": "#0a0a0a",
@@ -120,7 +120,7 @@
 		"list.inactiveSelectionForeground": "#ffffffd7",
 		"list.deemphasizedForeground": "#a1a1a1",
 		"list.dropBackground": "#FFFFFF99",
-		"list.errorForeground": "#f44747",
+		"list.errorForeground": "#f14445",
 		"list.focusBackground": "#434C5E",
 		"list.focusForeground": "#ECEFF4",
 		"list.highlightForeground": "#747474",
@@ -202,13 +202,13 @@
 		"terminal.ansiBrightCyan": "#747474",
 		"terminal.ansiBrightGreen": "#747474",
 		"terminal.ansiBrightMagenta": "#B48EAD",
-		"terminal.ansiBrightRed": "#f44747",
+		"terminal.ansiBrightRed": "#f14445",
 		"terminal.ansiBrightWhite": "#ededed",
 		"terminal.ansiBrightYellow": "#a1a1a1",
 		"terminal.ansiCyan": "#747474",
 		"terminal.ansiGreen": "#747474",
 		"terminal.ansiMagenta": "#B48EAD",
-		"terminal.ansiRed": "#f44747",
+		"terminal.ansiRed": "#f14445",
 		"terminal.ansiWhite": "#ededed",
 		"terminal.ansiYellow": "#a1a1a1",
 		"terminal.background": "#0a0a0a",
@@ -229,10 +229,10 @@
 		"walkThrough.embeddedEditorBackground": "#0a0a0a",
 		"minimapGutter.addedBackground": "#747474",
 		"minimapGutter.modifiedBackground": "#a1a1a1",
-		"minimapGutter.deletedBackground": "#f44747",
+		"minimapGutter.deletedBackground": "#f14445",
 		"minimap.findMatchHighlight": "#15ac9170",
 		"minimap.selectionHighlight": "#343434CC",
-		"minimap.errorHighlight": "#f44747",
+		"minimap.errorHighlight": "#f14445",
 		"minimap.warningHighlight": "#a1a1a1",
 		"minimap.background": "#0a0a0a",
 		"activityBar.border": "#00000000",
@@ -349,7 +349,7 @@
 		{
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#f44747"
+				"foreground": "#f14445"
 			}
 		},
 		{
@@ -1774,7 +1774,7 @@
 			"name": "php illegal.non-null-typehinted",
 			"scope": "invalid.illegal.non-null-typehinted.php",
 			"settings": {
-				"foreground": "#f44747"
+				"foreground": "#f14445"
 			}
 		},
 		{
@@ -1946,7 +1946,7 @@
 		{
 			"scope": "token.error-token",
 			"settings": {
-				"foreground": "#f44747"
+				"foreground": "#f14445"
 			}
 		},
 		{
