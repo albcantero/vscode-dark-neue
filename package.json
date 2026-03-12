@@ -3,7 +3,7 @@
   "displayName": "Dark Modern Neue",
   "publisher": "albcantero",
   "description": "The Dark Modern refresh you've been waiting for — refined color hierarchies, a Tailwind/shadcn high contrast variant, and a Vercel-inspired monochrome minimal.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "icon": "images/icon.png",
   "license": "MIT",
   "engines": {
@@ -45,13 +45,13 @@
         "path": "./themes/vscode-dark-neue.json"
       },
       {
-        "id": "Default Dark Modern Neue in High Contrast",
+        "id": "Default Dark Modern Neue High Contrast",
         "label": "Dark Modern Neue (High Contrast)",
         "uiTheme": "vs-dark",
         "path": "./themes/vscode-dark-neue-high-contrast.json"
       },
       {
-        "id": "Default Minimal Dark Modern Neue",
+        "id": "Default Dark Modern Neue Minimal",
         "label": "Dark Modern Neue (Minimal)",
         "uiTheme": "vs-dark", 
         "path": "./themes/vscode-dark-neue-minimal.json"

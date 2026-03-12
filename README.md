@@ -250,7 +250,7 @@ Found a specific issue with a token or color? [Open an issue](https://github.com
 
 <p align="center">
 	<a href="https://ko-fi.com/albcantero">
-		<img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi"/>
+		<img src="https://ko-fi.com/img/githubbutton_sm.png" alt="Ko-fi"/>
 	</a>
 </p>
 
