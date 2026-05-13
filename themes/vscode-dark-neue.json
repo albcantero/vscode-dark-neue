@@ -568,7 +568,11 @@
 				"keyword.operator.alignas",
 				"keyword.operator.instanceof",
 				"keyword.operator.logical.python",
-				"keyword.operator.wordlike"
+				"keyword.operator.wordlike",
+				"keyword.operator.comparison",
+				"keyword.operator.increment",
+				"keyword.operator.decrement",
+				"keyword.operator.relational"
 			],
 			"settings": {
 				"foreground": "#4F8FDD"
@@ -1239,7 +1243,7 @@
 		},
 		{
 			"name": "keyword.operator",
-			"scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational",
+			"scope": "keyword.operator.arithmetic",
 			"settings": {
 				"foreground": "#D4D4D4"
 			}
