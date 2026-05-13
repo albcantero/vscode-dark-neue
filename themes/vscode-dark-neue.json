@@ -620,7 +620,7 @@
 				"variable.parameter.function.language.special.cls.python"
 			],
 			"settings": {
-				"foreground": "#4F8FDD",
+				"foreground": "#DCBDFB",
 				"fontStyle": "italic"
 			}
 		},
@@ -635,7 +635,7 @@
 			"name": "Python named arguments function-call",
 			"scope": "variable.parameter.function-call.python",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -648,7 +648,7 @@
 				"entity.name.operator.custom-literal"
 			],
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -773,7 +773,7 @@
 				"constant.other.rgb-value"
 			],
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -808,13 +808,13 @@
 				"keyword.control.anchor.regexp"
 			],
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
 			"scope": "keyword.operator.quantifier.regexp",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -888,7 +888,7 @@
 			"name": "haskell storage type",
 			"scope": "storage.type.haskell",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1030,7 +1030,7 @@
 			"name": "math property js/ts",
 			"scope": "support.constant.property.math",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1118,7 +1118,7 @@
 			"name": "css color standard name",
 			"scope": "support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1132,7 +1132,7 @@
 			"name": "css attribute-name.id",
 			"scope": "support.constant.color.w3c-standard-color-name.css",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1199,7 +1199,7 @@
 			"name": "js/ts support.variable.property.process",
 			"scope": "support.variable.property.process",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1283,7 +1283,7 @@
 			"name": "python parameter",
 			"scope": "variable.parameter.function.language.python",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1297,7 +1297,7 @@
 			"name": "pyCs",
 			"scope": "variable.parameter.function.python",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1311,7 +1311,7 @@
 			"name": "python placeholder reset to  string",
 			"scope": "constant.character.format.placeholder.other.python",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1415,7 +1415,7 @@
 			"name": "Control Elements",
 			"scope": "control.elements, keyword.operator.less",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1489,7 +1489,7 @@
 			"name": "Constants",
 			"scope": "punctuation.definition.constant",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1537,7 +1537,7 @@
 			"name": "Bold",
 			"scope": "markup.bold,todo.bold",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1586,7 +1586,7 @@
 			"name": "[VSCODE-CUSTOM] Markdown Punctuation Definition Bold",
 			"scope": "punctuation.definition.bold.markdown",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1814,14 +1814,14 @@
 			"name": "support php constants",
 			"scope": "support.constant.core.rust",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
 			"name": "support php constants",
 			"scope": "support.constant.ext.php,support.constant.std.php,support.constant.core.php,support.constant.parser-token.php",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1905,14 +1905,14 @@
 			"name": "rgb value",
 			"scope": "inline-color-decoration rgb-value",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
 			"name": "rgb value less",
 			"scope": "less rgb-value",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -1952,7 +1952,7 @@
 		{
 			"scope": "token.warn-token",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -2044,7 +2044,7 @@
 			"name": "elm constant",
 			"scope": "support.constant.elm",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -2266,7 +2266,7 @@
 			"name": "wikiword",
 			"scope": "wikiword.xi",
 			"settings": {
-				"foreground": "#D1D6AE"
+				"foreground": "#DDDDA6"
 			}
 		},
 		{
@@ -2384,10 +2384,21 @@
 	"semanticTokenColors": {
 		"newOperator": "#C184C6",
 		"stringLiteral": "#CE8078",
-		"customLiteral": "#D1D6AE",
+		"customLiteral": "#A8CAAD",
 		"numberLiteral": "#A8CAAD",
 		"selfParameter": {
+			"foreground": "#DCBDFB",
 			"fontStyle": "italic"
-		}
+		},
+		"method.declaration": {
+			"foreground": "#E1D098",
+			"fontStyle": "bold"
+		},
+		"function.declaration": {
+			"foreground": "#E1D098",
+			"fontStyle": "bold"
+		},
+		"function": "#DDDDA6",
+		"method": "#DDDDA6"
 	}
 }
