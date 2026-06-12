@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.1]
+
+### Changed
+- **Minimal variant — full UI sync with Base**: all UI tokens (borders, focus ring, inputs, dropdowns, lists, statusbar, tabs, panels, peek view, scrollbars, menus) are now identical to the base variant. Only syntax colors differ.
+  - Editor background: `#000000` → `#090909`.
+  - Border and indent guide opacity raised from 5% to 7% (`#FFFFFF0D` → `#FFFFFF12`).
+  - Active indent guide: `#494949` → `#FFFFFF26` (15% white).
+  - Line highlight background: `#000000` → `#191919D9` (85% opacity).
+  - `input.placeholderForeground`: `#FFFFFF99` → `#606060` (matches base).
+  - Removed stray blue accents (`button.hoverBackground`, `list.focusBackground`, `statusBar.debuggingBackground`).
+- **Base** — `input.placeholderForeground`: `#FFFFFF99` → `#606060`.
+- **GitHub Scheme** — `sideBarTitle.foreground`: `#CCCCD4` → `#a1a1a9` (matched base gray intensity).
+- `variable.language` (`this`, `super`, `self`, `cls`): dedicated color with italic across all variants.
+
+---
+
 ## [2.0.0]
 
 ### Added
