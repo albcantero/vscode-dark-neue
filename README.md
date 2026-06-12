@@ -39,8 +39,8 @@
 <br />
 
 <p align=center>
-	<p>Dark Modern Neue — High Contrast</p>
-	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/high-contrast.png" width="800" alt="Dark Modern Neue High Contrast Variant Showcase"/>
+	<p>Dark Modern Neue — GitHub Scheme</p>
+	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/github-schema.png" width="800" alt="Dark Modern Neue GitHub Scheme Variant Showcase"/>
 </p>
 
 <br />
@@ -76,37 +76,35 @@ From there I updated the base colors with warmer, desaturated tones for a more m
 | Token | Dark Modern | `NEW!` Dark Modern Neue |
 |---|---|---|
 | Comments | ![#6A9955](https://img.shields.io/badge/-%236A9955-6A9955) | ![#494949](https://img.shields.io/badge/-%23494949-494949) ![italic](https://img.shields.io/badge/-italic-262626) |
-| Strings | ![#CE9178](https://img.shields.io/badge/-%23CE9178-CE9178) | ![#CE8078](https://img.shields.io/badge/-%23CE8078-CE8078) |
+| Strings | ![#CE9178](https://img.shields.io/badge/-%23CE9178-CE9178) | ![#CE8578](https://img.shields.io/badge/-%23CE8578-CE8578) |
 | Keywords / Storage | ![#569CD6](https://img.shields.io/badge/-%23569CD6-569CD6) | ![#4F8FDD](https://img.shields.io/badge/-%234F8FDD-4F8FDD) |
-| Functions | ![#DCDCAA](https://img.shields.io/badge/-%23DCDCAA-DCDCAA) | ![#D1D6AE](https://img.shields.io/badge/-%23D1D6AE-D1D6AE) |
-| Types / Classes | ![#4EC9B0](https://img.shields.io/badge/-%234EC9B0-4EC9B0) | ![#48C9C4](https://img.shields.io/badge/-%2348C9C4-48C9C4) |
+| Functions | ![#DCDCAA](https://img.shields.io/badge/-%23DCDCAA-DCDCAA) | ![#DDDDA6](https://img.shields.io/badge/-%23DDDDA6-DDDDA6) |
+| Types / Classes | ![#4EC9B0](https://img.shields.io/badge/-%234EC9B0-4EC9B0) | ![#4FC9BD](https://img.shields.io/badge/-%234FC9BD-4FC9BD) |
 | Variables | ![#9CDCFE](https://img.shields.io/badge/-%239CDCFE-9CDCFE) | ![#90D5FF](https://img.shields.io/badge/-%2390D5FF-90D5FF) |
 | Constants / Enums | ![#4FC1FF](https://img.shields.io/badge/-%234FC1FF-4FC1FF) | ![#4CBDFF](https://img.shields.io/badge/-%234CBDFF-4CBDFF) |
 | Numbers | ![#B5CEA8](https://img.shields.io/badge/-%23B5CEA8-B5CEA8) | ![#A8CAAD](https://img.shields.io/badge/-%23A8CAAD-A8CAAD) |
 | Control flow | ![#C586C0](https://img.shields.io/badge/-%23C586C0-C586C0) | ![#C184C6](https://img.shields.io/badge/-%23C184C6-C184C6) |
-| Properties | ![#9CDCFE](https://img.shields.io/badge/-%239CDCFE-9CDCFE) | ![#646695](https://img.shields.io/badge/-%23646695-646695) ![italic](https://img.shields.io/badge/-italic-262626) |
+| Properties | ![#9CDCFE](https://img.shields.io/badge/-%239CDCFE-9CDCFE) | ![#CCCCCC](https://img.shields.io/badge/-%23CCCCCC-CCCCCC) |
 | Regex | ![#D16969](https://img.shields.io/badge/-%23D16969-D16969) | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) |
 
 </details>
 
-Then came a High Contrast variant built entirely on [Tailwind colors used by shadcn-ui](https://ui.shadcn.com/colors), with strong chromatic separation for maximum token differentiation.
+Then came a GitHub Scheme variant — the classical GitHub palette brought into the modern Dark Modern Neue UI. Familiar colors for developers who live in GitHub's interface every day.
 
 <details>
-<summary><b>See Dark Modern Neue and the High Contrast alt comparison table</b></summary>
+<summary><b>See Dark Modern Neue and the GitHub Scheme comparison table</b></summary>
 
-| Token | Default | ![shadcn-ui](https://img.shields.io/badge/-shadcn--ui-000000?logo=shadcnui) High Contrast |
+| Token | Default | ![GitHub](https://img.shields.io/badge/-GitHub-000000?logo=github) GitHub Scheme |
 |---|---|---|
-| Comments | ![#494949](https://img.shields.io/badge/-%23494949-494949) | ![neutral-750](https://img.shields.io/badge/-neutral--750-333333) |
-| Strings | ![#CE8078](https://img.shields.io/badge/-%23CE8078-CE8078) | ![red-350](https://img.shields.io/badge/-red--350-F4806E) |
-| Keywords / Storage | ![#4F8FDD](https://img.shields.io/badge/-%234F8FDD-4F8FDD) | ![blue-500](https://img.shields.io/badge/-blue--500-3b82f6) |
-| Functions | ![#D1D6AE](https://img.shields.io/badge/-%23D1D6AE-D1D6AE) | ![amber-150](https://img.shields.io/badge/-amber--150-FEECA8) |
-| Types / Classes | ![#48C9C4](https://img.shields.io/badge/-%2348C9C4-48C9C4) | ![emerald-250](https://img.shields.io/badge/-emerald--250-82dfd0) |
-| Variables | ![#90D5FF](https://img.shields.io/badge/-%2390D5FF-90D5FF) | ![sky-300](https://img.shields.io/badge/-sky--300-7dd3fc) |
-| Constants / Enums | ![#4CBDFF](https://img.shields.io/badge/-%234CBDFF-4CBDFF) | ![sky-400](https://img.shields.io/badge/-sky--400-38bdf8) |
-| Numbers | ![#A8CAAD](https://img.shields.io/badge/-%23A8CAAD-A8CAAD) | ![green-300](https://img.shields.io/badge/-green--300-86efac) |
-| Control flow | ![#C184C6](https://img.shields.io/badge/-%23C184C6-C184C6) | ![fuchsia-350](https://img.shields.io/badge/-fuchsia--350-EB91FA) |
-| Properties | ![#646695](https://img.shields.io/badge/-%23646695-646695) | ![slate-450](https://img.shields.io/badge/-slate--450-7274b5) |
-| Regex | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) | ![rose-450](https://img.shields.io/badge/-rose--450-FF6B72) |
+| Comments | ![#494949](https://img.shields.io/badge/-%23494949-494949) ![italic](https://img.shields.io/badge/-italic-262626) | ![#494951](https://img.shields.io/badge/-%23494951-494951) ![italic](https://img.shields.io/badge/-italic-262626) |
+| Strings | ![#CE8578](https://img.shields.io/badge/-%23CE8578-CE8578) | ![#9ecbff](https://img.shields.io/badge/-%239ecbff-9ecbff) |
+| Keywords / Storage | ![#4F8FDD](https://img.shields.io/badge/-%234F8FDD-4F8FDD) | ![#f97583](https://img.shields.io/badge/-%23f97583-f97583) |
+| Functions | ![#DDDDA6](https://img.shields.io/badge/-%23DDDDA6-DDDDA6) | ![#b392f0](https://img.shields.io/badge/-%23b392f0-b392f0) |
+| Types / Classes | ![#4FC9BD](https://img.shields.io/badge/-%234FC9BD-4FC9BD) | ![#b392f0](https://img.shields.io/badge/-%23b392f0-b392f0) |
+| Variables | ![#90D5FF](https://img.shields.io/badge/-%2390D5FF-90D5FF) | ![#ffab70](https://img.shields.io/badge/-%23ffab70-ffab70) |
+| Numbers | ![#A8CAAD](https://img.shields.io/badge/-%23A8CAAD-A8CAAD) | ![#A8CAAD](https://img.shields.io/badge/-%23A8CAAD-A8CAAD) |
+| Control flow | ![#C184C6](https://img.shields.io/badge/-%23C184C6-C184C6) | ![#f97583](https://img.shields.io/badge/-%23f97583-f97583) |
+| Regex | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) | ![#79b8ff](https://img.shields.io/badge/-%2379b8ff-79b8ff) |
 
 </details>
 
@@ -118,17 +116,17 @@ And finally, my personal favorite: a monochrome and super minimalistic variant i
 
 | Token | ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel) Minimal |
 |---|---|
-| Comments | ![#262626](https://img.shields.io/badge/-%23262626-262626) ![italic](https://img.shields.io/badge/-italic-262626) |
-| Strings | ![#7DCFCA](https://img.shields.io/badge/-%237DCFCA-7DCFCA) |
-| Keywords / Storage | ![#525252](https://img.shields.io/badge/-%23525252-525252) |
-| Functions | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
-| Types / Classes | ![#525252](https://img.shields.io/badge/-%23525252-525252) |
-| Variables | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
-| Constants / Enums | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
-| Numbers | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) |
-| Control flow | ![#525252](https://img.shields.io/badge/-%23525252-525252) |
-| Properties | ![#b4b4b4](https://img.shields.io/badge/-%23b4b4b4-b4b4b4) ![italic](https://img.shields.io/badge/-italic-262626) |
-| Regex | ![#737373](https://img.shields.io/badge/-%23737373-737373) |
+| Comments | ![#404040](https://img.shields.io/badge/-%23404040-404040) ![italic](https://img.shields.io/badge/-italic-262626) |
+| Strings | ![#1FB2A3](https://img.shields.io/badge/-%231FB2A3-1FB2A3) |
+| Keywords / Storage | ![#747474](https://img.shields.io/badge/-%23747474-747474) |
+| Functions | ![#E0E0E0](https://img.shields.io/badge/-%23E0E0E0-E0E0E0) |
+| Types / Classes | ![#a1a1a1](https://img.shields.io/badge/-%23a1a1a1-a1a1a1) |
+| Variables | ![#E0E0E0](https://img.shields.io/badge/-%23E0E0E0-E0E0E0) |
+| Constants / Enums | ![#ffffff](https://img.shields.io/badge/-%23ffffff-ffffff) |
+| Numbers | ![#ffffff](https://img.shields.io/badge/-%23ffffff-ffffff) |
+| Control flow | ![#747474](https://img.shields.io/badge/-%23747474-747474) |
+| Properties | ![#E0E0E0](https://img.shields.io/badge/-%23E0E0E0-E0E0E0) ![italic](https://img.shields.io/badge/-italic-262626) |
+| Regex | ![#747474](https://img.shields.io/badge/-%23747474-747474) |
 
 </details>
 
