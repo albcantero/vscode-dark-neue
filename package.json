@@ -22,7 +22,6 @@
     "vercel",
     "monochrome",
     "black",
-    "high contrast",
     "color theme"
   ],
   "galleryBanner": {
@@ -41,33 +40,27 @@
     "themes": [
       {
         "id": "Default Dark Modern Neue",
-        "label": "Dark Modern Neue",
+        "label": "Dark Modern Neue (Visual Studio Schema)",
         "uiTheme": "vs-dark",
         "path": "./themes/vscode-dark-neue.json"
       },
       {
-        "id": "Default Dark Modern Neue High Contrast",
-        "label": "Dark Modern Neue (High Contrast) - DEPRECATED",
-        "uiTheme": "vs-dark",
-        "path": "./themes/vscode-dark-neue-high-contrast.json"
-      },
-      {
-        "id": "Default Dark Modern Neue Minimal",
-        "label": "Dark Modern Neue (Minimal)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/vscode-dark-neue-minimal.json"
-      },
-      {
         "id": "Default Dark Modern Neue GitHub",
-        "label": "Dark Modern Neue (GitHub Scheme)",
+        "label": "Dark Modern Neue (Github Schema)",
         "uiTheme": "vs-dark",
         "path": "./themes/vscode-dark-neue-github.json"
       },
       {
         "id": "Default Dark Modern Neue One Dark",
-        "label": "Dark Modern Neue (One Dark Scheme) ✨new✨",
+        "label": "Dark Modern Neue (One Dark Schema) ✨new✨",
         "uiTheme": "vs-dark",
         "path": "./themes/vscode-dark-neue-one-dark.json"
+      },
+      {
+        "id": "Default Dark Modern Neue Minimal",
+        "label": "Dark Modern Neue Minimal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vscode-dark-neue-minimal.json"
       }
     ]
   }
