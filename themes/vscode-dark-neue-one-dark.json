@@ -33,7 +33,7 @@
 		"dropdown.border": "#24242c",
 		"dropdown.foreground": "#DBDFE0",
 		"editor.background": "#101012",
-		"editor.foreground": "#DBDFE0",
+		"editor.foreground": "#acb2be",
 		"editor.findMatchBackground": "#FFFFFF33",
 		"editor.findMatchHighlightBackground": "#FFFFFF1A",
 		"editor.findRangeHighlightBackground": "#FFFFFF33",
