@@ -59,13 +59,13 @@
       },
       {
         "id": "Default Dark Modern Neue GitHub",
-        "label": "Dark Modern Neue (GitHub Scheme) ✨new✨",
+        "label": "Dark Modern Neue (GitHub Scheme)",
         "uiTheme": "vs-dark",
         "path": "./themes/vscode-dark-neue-github.json"
       },
       {
         "id": "Default Dark Modern Neue One Dark",
-        "label": "Dark Modern Neue (One Dark Scheme)",
+        "label": "Dark Modern Neue (One Dark Scheme) ✨new✨",
         "uiTheme": "vs-dark",
         "path": "./themes/vscode-dark-neue-one-dark.json"
       }
