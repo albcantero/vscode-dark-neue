@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.1.0]
+
+### Added
+- **One Dark Schema** variant: the Dark Modern Neue UI wearing the One Dark syntax palette, mirrored from my Zed setup. Built on semantic tokens (Pylance / TS server) so it tracks Zed's tree-sitter look as closely as VS Code allows — coral properties and parameters, cyan types, gold module-level constants, italic `self`/`cls`, red f-string / template-literal braces, and a muted gray for everything plain.
+
+### Changed
+- **GitHub Schema** — foreground softened: the near-white `#DBDFE0` now carries a 6% alpha (`#DBDFE0F0`) for a gentler, less harsh reading surface.
+- Theme labels renamed to a consistent scheme: **Dark Modern Neue (Visual Studio Schema)**, **(Github Schema)**, **(One Dark Schema)**, and **Minimal**.
+- Theme ids simplified (`Default …` → `Neue …`).
+- **Note:** because labels and ids changed, VS Code may reset to the default theme after updating — just pick your variant again from `Preferences: Color Theme`.
+
+### Removed
+- **High Contrast** variant (deprecated since 2.0.0) — removed entirely, along with its keyword.
+
+### Fixed
+- **One Dark Schema** — identifiers the language server does not classify no longer render pure white; the editor's default foreground is now the theme gray (`#acb2be`).
+
+---
+
 ## [2.0.1]
 
 ### Changed

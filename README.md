@@ -32,21 +32,21 @@
 <summary><strong>See more details</strong></summary>
 
 <p align=center>
-	<p>Default Dark Modern Neue</p>
+	<p>Dark Modern Neue (Visual Studio Schema)</p>
 	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/default.png" width="800" alt="Dark Modern Neue Default Variant Showcase"/>
 </p>
 
 <br />
 
 <p align=center>
-	<p>Dark Modern Neue — GitHub Scheme</p>
+	<p>Dark Modern Neue (Github Schema)</p>
 	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/github-schema.png" width="800" alt="Dark Modern Neue GitHub Scheme Variant Showcase"/>
 </p>
 
 <br />
 
 <p align=center> 
-	<p>Dark Modern Neue — Minimal</p>
+	<p>Dark Modern Neue Minimal</p>
 	<img src="https://raw.githubusercontent.com/albcantero/vscode-dark-neue/main/assets/minimal.png" width="800" alt="Dark Modern Neue Minimal Variant Showcase"/>
 </p>
 
@@ -105,6 +105,28 @@ Then came a GitHub Scheme variant — the classical GitHub palette brought into 
 | Numbers | ![#A8CAAD](https://img.shields.io/badge/-%23A8CAAD-A8CAAD) | ![#A8CAAD](https://img.shields.io/badge/-%23A8CAAD-A8CAAD) |
 | Control flow | ![#C184C6](https://img.shields.io/badge/-%23C184C6-C184C6) | ![#f97583](https://img.shields.io/badge/-%23f97583-f97583) |
 | Regex | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) | ![#79b8ff](https://img.shields.io/badge/-%2379b8ff-79b8ff) |
+
+</details>
+
+Then, ported straight from my [Zed](https://zed.dev) setup, the **One Dark Schema** — the Dark Modern Neue UI wearing the classic One Dark syntax palette: coral properties, cyan types, gold constants, and a muted gray for everything plain. It leans heavily on semantic tokens, so keep `editor.semanticHighlighting.enabled: true` (it's in the recommended settings below) for the full effect.
+
+<details>
+<summary><b>See Dark Modern Neue and the One Dark Schema comparison table</b></summary>
+
+| Token | Default | ![One Dark](https://img.shields.io/badge/-One%20Dark-2b303b) One Dark Schema |
+|---|---|---|
+| Comments | ![#494949](https://img.shields.io/badge/-%23494949-494949) ![italic](https://img.shields.io/badge/-italic-262626) | ![#5d636f](https://img.shields.io/badge/-%235d636f-5d636f) ![italic](https://img.shields.io/badge/-italic-262626) |
+| Strings | ![#CE8578](https://img.shields.io/badge/-%23CE8578-CE8578) | ![#a1c181](https://img.shields.io/badge/-%23a1c181-a1c181) |
+| Keywords / Storage | ![#4F8FDD](https://img.shields.io/badge/-%234F8FDD-4F8FDD) | ![#b477cf](https://img.shields.io/badge/-%23b477cf-b477cf) |
+| Functions | ![#DDDDA6](https://img.shields.io/badge/-%23DDDDA6-DDDDA6) | ![#73ade9](https://img.shields.io/badge/-%2373ade9-73ade9) |
+| Types / Classes | ![#4FC9BD](https://img.shields.io/badge/-%234FC9BD-4FC9BD) | ![#6eb4bf](https://img.shields.io/badge/-%236eb4bf-6eb4bf) |
+| Variables | ![#90D5FF](https://img.shields.io/badge/-%2390D5FF-90D5FF) | ![#acb2be](https://img.shields.io/badge/-%23acb2be-acb2be) |
+| Properties | ![#CCCCCC](https://img.shields.io/badge/-%23CCCCCC-CCCCCC) | ![#d07277](https://img.shields.io/badge/-%23d07277-d07277) |
+| Constants / Enums | ![#4CBDFF](https://img.shields.io/badge/-%234CBDFF-4CBDFF) | ![#dfc184](https://img.shields.io/badge/-%23dfc184-dfc184) |
+| Numbers | ![#A8CAAD](https://img.shields.io/badge/-%23A8CAAD-A8CAAD) | ![#bf956a](https://img.shields.io/badge/-%23bf956a-bf956a) |
+| Operators | ![#4F8FDD](https://img.shields.io/badge/-%234F8FDD-4F8FDD) | ![#6eb4bf](https://img.shields.io/badge/-%236eb4bf-6eb4bf) |
+| Control flow | ![#C184C6](https://img.shields.io/badge/-%23C184C6-C184C6) | ![#b477cf](https://img.shields.io/badge/-%23b477cf-b477cf) |
+| Regex | ![#CC6E75](https://img.shields.io/badge/-%23CC6E75-CC6E75) | ![#bf956a](https://img.shields.io/badge/-%23bf956a-bf956a) |
 
 </details>
 
@@ -191,8 +213,8 @@ Paste all of this on your `settings.json` and you will get the cleanest and mini
 
   "workbench.productIconTheme": "feather-vscode",
   "workbench.iconTheme": "jetbrains-file-icon-theme-dark",
-  "workbench.preferredDarkColorTheme": "Visual Studio Dark Modern Neue",
-  "workbench.colorTheme": "Visual Studio Dark Modern Neue",
+  "workbench.preferredDarkColorTheme": "Dark Modern Neue (Visual Studio Schema)",
+  "workbench.colorTheme": "Dark Modern Neue (Visual Studio Schema)",
   "workbench.activityBar.location": "top",
   "workbench.tree.renderIndentGuides": "onHover",
   "workbench.tree.indent": 12,
